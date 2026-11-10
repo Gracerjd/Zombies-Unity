@@ -21,6 +21,6 @@ clone 后需要自行从 Asset Store 导入以下资源包，否则场景会丢�
 
 ## 目录
 
-- `Assets/Scripts/` — 141 个 C# 脚本，游戏逻辑
+- `Assets/Scripts/` — 41 个 C# 脚本，游戏逻辑
 - `Assets/Scenes/` — 场景
 - `Assets/Resources/` — 运行时加载资源、音频
