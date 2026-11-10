@@ -1,4 +1,4 @@
-# ===== Unity 自动生成，不提交 =====
+# ===== Unity 自动生成 =====
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -23,7 +23,7 @@
 *.opendb
 *.VC.db
 
-# ===== 第三方商店素材（体积大 + 授权限制）=====
+# ===== 第三方商店素材 =====
 Assets/ArtRes/
 Assets/_TerrainAutoUpgrade/
 
