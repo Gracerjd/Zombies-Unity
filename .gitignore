@@ -1,0 +1,33 @@
+# ===== Unity 自动生成，不提交 =====
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# ===== IDE 本机文件 =====
+.vs/
+.idea/
+*.csproj
+*.sln
+*.user
+*.suo
+*.pidb
+*.booproj
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ===== 第三方商店素材（体积大 + 授权限制）=====
+Assets/ArtRes/
+Assets/_TerrainAutoUpgrade/
+
+# ===== 系统杂项 =====
+.DS_Store
+Thumbs.db
+*.log

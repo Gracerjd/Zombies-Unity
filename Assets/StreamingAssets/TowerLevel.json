@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "name": "加农炮",
+    "type": 1,
+    "levels": [
+      {
+        "level": 1,
+        "money": 200,
+        "atk": 5,
+        "atkRange": 10,
+        "offsetTime": 1,
+        "imgRes": "TowerImg/1_1",
+        "res": "Tower/1_1",
+        "eff": "Eff/Fire1"
+      },
+      {
+        "level": 2,
+        "money": 300,
+        "atk": 8,
+        "atkRange": 10,
+        "offsetTime": 0.8,
+        "imgRes": "TowerImg/1_2",
+        "res": "Tower/1_2",
+        "eff": "Eff/Fire1"
+      },
+      {
+        "level": 3,
+        "money": 400,
+        "atk": 12,
+        "atkRange": 12,
+        "offsetTime": 0.7,
+        "imgRes": "TowerImg/1_3",
+        "res": "Tower/1_3",
+        "eff": "Eff/Fire1"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "范围塔",
+    "type": 2,
+    "levels": [
+      {
+        "level": 1,
+        "money": 300,
+        "atk": 4,
+        "atkRange": 10,
+        "offsetTime": 1,
+        "imgRes": "TowerImg/2_1",
+        "res": "Tower/2_1",
+        "eff": "Eff/Fire2"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "巨型炮",
+    "type": 1,
+    "levels": [
+      {
+        "level": 1,
+        "money": 400,
+        "atk": 10,
+        "atkRange": 10,
+        "offsetTime": 1,
+        "imgRes": "TowerImg/3_1",
+        "res": "Tower/3_1",
+        "eff": "Eff/Fire3"
+      }
+    ]
+  }
+]
