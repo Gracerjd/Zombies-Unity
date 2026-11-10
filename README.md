@@ -1,26 +1,21 @@
-# 丧尸围城
+# 丧尸围城 · 俯视角生存射击
 
-Unity 2023.2.20f1c1 制作的俯视角生存射击 Demo。
+> Unity 2023.2 实现的 Wave 生存射击，含波次生成、武器系统、敌人 AI。
 
-## 打开方式
+![screenshot]()
 
-1. 用 Unity Hub 添加本目录，Editor 版本选 **2023.2.20f1c1**
-2. 首次打开会自动从 `Packages/manifest.json` 还原依赖
+## 玩法
+WASD 移动，鼠标瞄准射击，撑过每波敌人……
 
-## 关于素材
+## 我做了什么
+- 波次生成与难度曲线（`Assets/Scripts/WaveManager.cs`）
+- 敌人寻路与状态机（`Assets/Scripts/Enemy/`）
+- 武器切换与后坐力（`Assets/Scripts/Weapons/`）
 
-`Assets/ArtRes/` 未纳入版本库（第三方 Asset Store 资源，含授权限制）。
-clone 后需要自行从 Asset Store 导入以下资源包，否则场景会丢失贴图/模型：
+## 技术点
+- 对象池复用子弹，避免 GC 抖动
+- NavMesh 动态避障
+- ScriptableObject 配置武器数据
 
-- PureNature
-- Top-Down Graveyard
-- Tower Defense
-- MagicArsenal
-- Unique Projectiles Vol.1
-- Toon Soldiers / Toon Zombies
-
-## 目录
-
-- `Assets/Scripts/` — 41 个 C# 脚本，游戏逻辑
-- `Assets/Scenes/` — 场景
-- `Assets/Resources/` — 运行时加载资源、音频
+## 如何运行
+Unity 2023.2.20f1c1 打开，素材需自行从 Asset Store 导入（见下）
