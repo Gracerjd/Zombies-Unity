@@ -2,7 +2,7 @@
 
 > Unity 2023.2 实现的 Wave 生存射击，含波次生成、武器系统、敌人 AI。
 
-![screenshot](| ![](docs/12.png) | ![](docs/13.png) |)
+| ![](docs/12.png) | ![](docs/13.png) |
 
 ## 玩法
 WASD 移动，鼠标瞄准射击，撑过每波敌人……
