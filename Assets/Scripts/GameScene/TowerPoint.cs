@@ -44,8 +44,7 @@ public class TowerPoint : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        
-        
+
         UIMgr.Instance.GetPanel<GamePanel>().UpdateSelTower(this);
     }
 

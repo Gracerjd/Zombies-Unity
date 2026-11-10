@@ -2639,7 +2639,6 @@ GameObject:
   - component: {fileID: 4579802722756030897}
   - component: {fileID: 463069295999884982}
   - component: {fileID: 3511373474681045071}
-  - component: {fileID: 470063514348132934}
   - component: {fileID: -7342014458635665160}
   m_Layer: 0
   m_Name: 2
@@ -2725,18 +2724,6 @@ MonoBehaviour:
   atk: 0
   money: 0
   firePos: {fileID: 7576425823581552395}
---- !u!114 &470063514348132934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7722064140716479075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54cfc277cc169d447b409e6c6aff2d78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!143 &-7342014458635665160
 CharacterController:
   m_ObjectHideFlags: 0
